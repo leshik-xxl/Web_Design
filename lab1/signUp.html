@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/SignUp.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <title>NumGuide</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/phone-book.png" alt="" width="30px" height="24px" class="d-inline-block align-top">
+                NumGuide
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" >About us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <h1 class="justify-content-center">
+                    <img src="img/phone-book.png" alt="logo" height="48px" width="60px">
+                    NumGuide is the best instrument to manage your contact
+                </h1>
+            </div>
+        </div>
+
+        <section class="function">
+            <form class="container-md">
+                <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label" >First name</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="Oleksii"  required>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="validationCustom02" value="Bikerei" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustomUsername" class="form-label">E-mail</label>
+                    <div class="input-group has-validation">
+                        <input type="text" class="form-control" id="validationCustomUsername" value="oleksii.bikerei@gmail.com" required>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom04" class="form-label">Gender</label>
+                    <select class="form-select" id="validationCustom04" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="example-date-input" class="form-label">Date</label>
+                    <div class="col-md-12">
+                        <input class="form-control" type="date" value="2000-10-07" id="example-date-input">
+                    </div>
+                </div>
+
+                <div class="col-md-4 btn registration">
+                    <a class="btn btn-success" href="signIn.html" role="button"> Sign Up</a>
+                </div>
+
+            </form>
+
+            <div>
+
+            </div>
+        </section>
+    </section>
+
+    <section class="projects">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/background3.jpg" alt="back3">
+            </div>
+            <div class="col-md-4">
+                <img src="img/background2.jpg" alt="back2">
+            </div>
+            <div class="col-md-4">
+                <img src="img/sitebackground.jpg" alt="back3">
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light text-center text-lg-start footer">
+        <div class="text-center p-3">
+            © 2021 Copyright: Oleksii Bikerei KV-82
+        </div>
+    </footer>
+</body>
+</html>
