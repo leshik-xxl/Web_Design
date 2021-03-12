@@ -13,4 +13,4 @@
 - про додаток (емблема додатку, короткий опис додатка)
 - робоча сторінка додатка (розробляється самостійно студентом відповідно до обраної тематики)
 
-Посмлання на звіт https://docs.google.com/document/d/1QZuTvp6F0Td9UK8XilUX5eA2CYaptZ0EXnDyj-HxoNE/edit?usp=sharing
+Посмлання на звіт https://docs.google.com/document/d/1TzMC44csHkllbNcnFhruS1howkpW9BBl1R7A_qPpotY/edit?usp=sharing
