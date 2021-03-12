@@ -1,2 +1,2 @@
 # Web_Design
-Labaratory work from web-design
+Web-design Labatory work
