@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #49444f;
+    min-height: calc(100vh - 200px);
+}
+
+
+label{
+    color: #00D3FF;
+    font-weight: bold;
+    font-size: large;
+}
+
+footer{
+    margin-top: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #f8f74f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.projects .row{
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.projects .col-md-4{
+    margin: 0;
+    padding: 0;
+}
+
+.projects img{
+    width: 100%;
+    height: 40vh;
+}
+
+.registration{
+    margin-top: 15px;
+}
+
+
+
+.main{
+    background-image: url("../img/5053309.jpg");
+    background-size: cover;
+    padding-bottom: 25px;
+}
+
